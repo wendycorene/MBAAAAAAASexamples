@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		507C3E12206A92E700AB91E9 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 507C3E10206A92E600AB91E9 /* Bolts.framework */; };
+		507C3E13206A92E700AB91E9 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 507C3E11206A92E700AB91E9 /* Parse.framework */; };
+		507C3E16206A939A00AB91E9 /* libstdc++.6.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 507C3E15206A939A00AB91E9 /* libstdc++.6.tbd */; };
+		507C3E18206A93A900AB91E9 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 507C3E17206A93A900AB91E9 /* libsqlite3.tbd */; };
+		507C3E1A206A93B200AB91E9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 507C3E19206A93B200AB91E9 /* SystemConfiguration.framework */; };
+		507C3E1C206A93B900AB91E9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 507C3E1B206A93B900AB91E9 /* AudioToolbox.framework */; };
+		507C3E1E206A9C9100AB91E9 /* ParseManagedObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507C3E1D206A9C9100AB91E9 /* ParseManagedObjects.swift */; };
 		50FA1339205AC920000280FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FA1338205AC920000280FD /* AppDelegate.swift */; };
 		50FA133B205AC920000280FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FA133A205AC920000280FD /* ViewController.swift */; };
 		50FA133E205AC920000280FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50FA133C205AC920000280FD /* Main.storyboard */; };
@@ -15,6 +22,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		507C3E10206A92E600AB91E9 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		507C3E11206A92E700AB91E9 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		507C3E15206A939A00AB91E9 /* libstdc++.6.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.tbd"; path = "usr/lib/libstdc++.6.tbd"; sourceTree = SDKROOT; };
+		507C3E17206A93A900AB91E9 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		507C3E19206A93B200AB91E9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		507C3E1B206A93B900AB91E9 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		507C3E1D206A9C9100AB91E9 /* ParseManagedObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseManagedObjects.swift; sourceTree = "<group>"; };
 		50FA1335205AC920000280FD /* MBAAAAAAASexamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MBAAAAAAASexamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50FA1338205AC920000280FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50FA133A205AC920000280FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,17 +43,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				507C3E1C206A93B900AB91E9 /* AudioToolbox.framework in Frameworks */,
+				507C3E1A206A93B200AB91E9 /* SystemConfiguration.framework in Frameworks */,
+				507C3E18206A93A900AB91E9 /* libsqlite3.tbd in Frameworks */,
+				507C3E16206A939A00AB91E9 /* libstdc++.6.tbd in Frameworks */,
+				507C3E13206A92E700AB91E9 /* Parse.framework in Frameworks */,
+				507C3E12206A92E700AB91E9 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		507C3E14206A939A00AB91E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				507C3E1B206A93B900AB91E9 /* AudioToolbox.framework */,
+				507C3E19206A93B200AB91E9 /* SystemConfiguration.framework */,
+				507C3E17206A93A900AB91E9 /* libsqlite3.tbd */,
+				507C3E15206A939A00AB91E9 /* libstdc++.6.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		50FA132C205AC920000280FD = {
 			isa = PBXGroup;
 			children = (
+				507C3E1D206A9C9100AB91E9 /* ParseManagedObjects.swift */,
 				50FA1337205AC920000280FD /* MBAAAAAAASexamples */,
 				50FA1336205AC920000280FD /* Products */,
+				507C3E10206A92E600AB91E9 /* Bolts.framework */,
+				507C3E11206A92E700AB91E9 /* Parse.framework */,
+				507C3E14206A939A00AB91E9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				50FA133B205AC920000280FD /* ViewController.swift in Sources */,
+				507C3E1E206A9C9100AB91E9 /* ParseManagedObjects.swift in Sources */,
 				50FA1339205AC920000280FD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +311,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MBAAAAAAASexamples/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = class.MBAAAAAAASexamples;
@@ -289,6 +329,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MBAAAAAAASexamples/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = class.MBAAAAAAASexamples;
