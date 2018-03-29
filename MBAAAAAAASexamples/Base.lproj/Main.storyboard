@@ -34,6 +34,46 @@
                                     <action selector="fetchWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sS0-tq-nmA"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yea-BC-VDn">
+                                <rect key="frame" x="116" y="197" width="142" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Print specific movies"/>
+                                <connections>
+                                    <action selector="fetchWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fMJ-Tf-38D"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lYS-tJ-YaK">
+                                <rect key="frame" x="109" y="254" width="157" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Remove the first movie"/>
+                                <connections>
+                                    <action selector="removeWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pDJ-iS-8Fv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cMk-yj-VAt">
+                                <rect key="frame" x="98" y="318" width="179" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Add actor to some movies"/>
+                                <connections>
+                                    <action selector="addActorWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TB9-NT-iN3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dWV-Lh-Cls">
+                                <rect key="frame" x="142" y="371" width="91" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Register user"/>
+                                <connections>
+                                    <action selector="registerWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wq1-en-cq1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YPX-Ec-wmk">
+                                <rect key="frame" x="166" y="418" width="42" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Log in"/>
+                                <connections>
+                                    <action selector="loginWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WMS-je-JTX"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>

@@ -20,3 +20,13 @@ class Movie:PFObject, PFSubclassing {
     }
     
 }
+
+class Actor: PFObject, PFSubclassing {
+    
+    @NSManaged var name : String
+    @NSManaged var starredIn: [Movie]
+    
+    static func parseClassName() -> String {
+        return "Actor"
+    }
+}
